@@ -1,0 +1,28 @@
+include<stdio.h>
+int main ()
+{
+  int A,B,C,T;
+  
+  printf("THE ANGLE OF TRIANGLE A \t");
+  scanf("%d",&A);
+  
+  printf("THE ANGLE OF TRIANGLE B \t");
+  scanf("%d",&B);
+  
+  printf("THE ANGLE OF TRIANGLE C \t");
+  scanf("%d",&C);
+  
+  T=A+B+C;
+  
+  if(A==0||B==0||C==0)
+  {
+    printf("THE TRIANGLE IS INVALID");
+  }  
+  else
+  if(T==180)
+  {
+    printf("THE TRIANGLE IS VALID");
+  }
+  
+  return 0;
+}    
